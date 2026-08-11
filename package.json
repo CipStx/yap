@@ -1,7 +1,7 @@
 {
-    "name": "naohio-hopeline",
-    "private": true,
-    "scripts": {
-          "heroku-postbuild": "cd src && npm install && npm run production"
-    }
+      "name": "naohio-hopeline",
+      "private": true,
+      "scripts": {
+              "heroku-postbuild": "npm --prefix src install && npm --prefix src run production"
+      }
 }
